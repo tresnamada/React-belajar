@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .navlink{
+        @apply text-xl inline-block px-6 py-2 font-semibold text-gray-500 hover:text-black
+    }
+
+    .btn-primary{
+        @apply bg-gradient-to-r from-secondary/80 to-secondary hover:bg-gradient-to-l duration-200 text-white font-semibold px-6 py-2 rounded-full
+    }
+
+    .center{
+        @apply flex justify-center items-center
+    }
+}
